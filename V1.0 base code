@@ -1,0 +1,24 @@
+#Createdata.py - 1.0 02/09/2019
+#program developed to create index number for a .xls migration file for SAP PM
+#The index refers to the number of the task in a task list for maintenance
+
+for i in range(10, 100, 10):
+    print('00' + str(i))
+    print('00' + str(i))
+    print('00' + str(i))
+    print('00' + str(i))
+    print('00' + str(i))
+    
+for i in range(100, 1000, 10):
+    print('0' + str(i))
+    print('0' + str(i))
+    print('0' + str(i))
+    print('0' + str(i))
+    print('0' + str(i))
+
+for i in range(1000, 1600, 10):
+    print(str(i))
+    print(str(i))
+    print(str(i))
+    print(str(i))
+    print(str(i))
